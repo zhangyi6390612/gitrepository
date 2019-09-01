@@ -12,4 +12,9 @@ public class testController {
     public String test(){
         return "hello world";
     }
+	@RequestMapping("/test2")
+    @ResponseBody
+    public String test2(){
+        return "hello world";
+    }
 }
