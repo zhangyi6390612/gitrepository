@@ -17,4 +17,9 @@ public class testController {
     public String test2(){
         return "hello world";
     }
+	@RequestMapping("/test1")
+    @ResponseBody
+    public String test1(){
+        return "hello world";
+    }
 }
